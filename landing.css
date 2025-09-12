@@ -1,0 +1,102 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2b9348;
+  padding: 1rem 2rem;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.nav-links a:hover {
+  color: #caffbf;
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #55a630, #aacc00);
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.hero button {
+  background: #2b9348;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero button:hover {
+  background: #1a7431;
+}
+
+/* Sections */
+.section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.section h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #2b9348;
+}
+
+footer {
+  background: #2b9348;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+}
